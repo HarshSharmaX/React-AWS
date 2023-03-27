@@ -1,0 +1,73 @@
+.hNewVendorsSec{
+    padding-bottom: 3.75%;
+    border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+}
+.hNewVendorsHeading{
+    color: #25255c;
+    font-size: 2.8vmax;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5.5%;
+    margin-bottom: 3.5%;
+}
+
+.hNewVendorsImgSec{
+    
+}
+
+    .hNewVendorsImg{
+       width: 87%;
+       height: 100%;
+       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+    }
+
+
+.hNewVendorsCardSec .slick-slider {
+    margin-left: 5.5% !important;
+}
+
+.NRhBestOffer{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .hNewVendorsSec{
+        padding-bottom: 3.75%;
+        border-bottom: 3px solid rgba(37, 37, 92, 0.15);
+    }
+    .hNewVendorsHeading{
+        color: #25255c;
+        font-size: 2.5vmax;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+
+    .hNewVendorsCardSec {
+        margin-left: 3%;
+    }
+    
+    .hNewVendorsImgSec{
+        
+    }
+    
+        .hNewVendorsImg{
+           width: 90%;
+           height: 100%;
+           box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+           border-radius: 5px;
+        }
+    
+    
+    .hNewVendorsCardSec .slick-slider {
+        margin-left: 0 !important;
+    }
+    
+    .NRhBestOffer{
+        display: none;
+    }
+}

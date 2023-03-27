@@ -1,0 +1,77 @@
+.fOfferheading{
+    display: inline-block;
+    width: 50%;
+    color: #26235c;
+    font-weight: 700;
+    font-size: 2.8vmax;
+    margin: 0;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.fOffersSec{
+    width: 95%;
+    margin-left: 5%;
+}
+
+.fOffersimgsec{
+    display: inline-block;
+    width: 29.3%;
+    margin-right: 3.5%;
+    margin-bottom: 3.8%;
+    
+}
+
+    .fOffersimg{
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: 10.45vmax;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+  
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .fOfferheading{
+        display: inline-block;
+        width: 39%;
+        color: #26235c;
+        font-weight: 700;
+        font-size: 3vmax;
+        margin: 0;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        vertical-align: top;
+    }
+    
+    
+    .fOffersSec{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .fOffersimgsec{
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 2.5%;
+        margin-bottom: 2.5%;
+        border-bottom: 1px solid rgba(37, 37, 92, 0.37);;
+    }
+
+        .fOffersimg{
+            position: relative;
+            cursor: pointer;
+            
+            width: 94%;
+            height: 19vmax;
+            margin-left: 3%;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        }   
+}
+

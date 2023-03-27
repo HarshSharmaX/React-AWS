@@ -1,0 +1,73 @@
+
+
+
+
+.weddingPageheading{
+    color: #26235c;
+    font-weight: 700;
+    font-size: 2.8vmax;
+    font-family: cherilyn;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    margin-top: 4.2%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.weddingPageSec{
+    display: flex;
+}
+
+.weddingPageTypeSec{
+    width: 26%;
+    text-align: center;
+}
+
+.weddingPageCategoriesSec{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    width: 70%;
+    border-left: 0.2rem solid #26235c;
+}
+
+.weddingPageCategoriesSec > a{
+    width: 15%;
+    margin: 0 5%;
+    text-decoration: none;
+}
+
+
+    .weddingTypeButton{
+        width: 90%;
+        color: #26235c;
+        font-size: 2.2rem;
+        font-weight: 400;
+        font-family: cherilyn;
+        letter-spacing: 0.1rem;
+        background: rgba(37, 37, 92, 0.15);
+        padding: 1.8rem 0rem ;
+        border: none;
+        margin-bottom: 6%;
+    }
+
+    .weddingTypeButton.active{
+        background: #25255C;
+        color: #ffffff;
+    }
+
+    .weddingCategoriesImgSec{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .weddingCategoriesImg{
+        width: 100%;
+    }
+
+    .weddingCategoriesImgSec > p{
+        color: #26235c;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-align: center;
+    }
